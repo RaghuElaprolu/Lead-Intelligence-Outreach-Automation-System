@@ -1,0 +1,87 @@
+# config.yaml
+# Lead Intelligence System — rubric, LLM, and pipeline settings.
+# Edit weights/thresholds here without touching code.
+
+llm:
+  # provider controls which env var + base_url default gets used. Supported: openai, groq, gemini, mock
+  provider: "mock"          # switch to "openai" / "groq" / "gemini" once you export an API key
+  model: "llama-3.1-8b-instant"   # e.g. gpt-4o-mini (openai), llama-3.1-8b-instant (groq)
+  base_url: ""               # leave blank to use the provider default; groq uses https://api.groq.com/openai/v1
+  api_key_env: "LLM_API_KEY" # name of the environment variable holding the key
+  batch_size: 8              # leads sent to the LLM per call — never call the API per-lead
+  max_retries: 4
+  backoff_base_seconds: 1.5  # exponential backoff: base * 2^attempt, capped by backoff_max_seconds
+  backoff_max_seconds: 30
+  request_timeout_seconds: 30
+  temperature: 0.4
+  message_variants_per_lead: 2   # how many outreach message variants to generate for qualified leads
+
+rubric:
+  # Weights must sum to 1.0. Each factor is scored 0-10 internally, then blended by weight
+  # into a single 1-10 fit_score.
+  weights:
+    company_size_fit: 0.25
+    industry_fit: 0.20
+    source_quality: 0.20
+    engagement_recency: 0.20
+    data_confidence: 0.15
+
+  # Ideal Customer Profile (ICP) size band for a mid-market SaaS seller. Leads inside the
+  # band score highest; scores taper off the further a lead sits outside it.
+  company_size:
+    ideal_min: 50
+    ideal_max: 2000
+    # below this, we assume too small to have budget; above this, sales cycles/procurement
+    # complexity tend to blow past what a self-serve/light-touch motion can close.
+    hard_floor: 2
+    hard_ceiling: 50000
+
+  # Industries with a track record of converting well for a horizontal SaaS product.
+  # Anything not listed falls into "unmapped" and gets a mid-range score plus a review flag.
+  industry_fit:
+    strong: ["SaaS", "FinTech", "Software", "Analytics", "Cybersecurity", "EdTech", "Technology", "Enterprise Software"]
+    moderate: ["Finance", "Healthcare", "Retail", "Logistics", "Insurance", "Consulting", "Marketing", "Media", "Supply Chain", "Travel"]
+    weak: ["Manufacturing", "Agriculture", "Hospitality", "Events", "Legal", "Real Estate", "Government", "Energy", "Education", "Pharmaceuticals"]
+
+  # Higher-intent sources score higher — someone who filled out a demo request is further
+  # down the funnel than a cold LinkedIn add.
+  source_quality:
+    high: ["Inbound demo request", "Referral"]
+    medium: ["Sales call", "Webinar attendee"]
+    low: ["Content download", "LinkedIn outreach"]
+    unknown_score: 3.0   # missing/unrecognized source — penalized, not zeroed
+
+  engagement_recency:
+    # days-since-last-touch buckets -> score out of 10
+    bands:
+      - {max_days: 14,  score: 10.0}
+      - {max_days: 30,  score: 8.5}
+      - {max_days: 90,  score: 6.5}
+      - {max_days: 180, score: 4.5}
+      - {max_days: 365, score: 2.5}
+      - {max_days: null, score: 1.0}   # older than a year, or unparseable
+    missing_score: 3.0
+
+  # Penalty applied per missing/invalid field (name, company, company_size, industry,
+  # source, last_interaction_date), floored at 0.
+  data_confidence:
+    max_score: 10.0
+    penalty_per_missing_field: 2.0
+
+decision_thresholds:
+  qualified_min: 7.0     # fit_score >= this -> Qualified
+  review_min: 5.0         # fit_score in [review_min, qualified_min) -> Flagged for Human Review
+  # calibrated against the training set: 5.0 is the midpoint of the 1-10 scale, and it's
+  # the first threshold that actually separates the weakest complete-data lead (a tiny
+  # hospitality company reached via cold LinkedIn outreach, scoring 4.82) from the
+  # "genuinely unclear" cluster (5.5-7.0). At review_min=4.0 nothing landed below it,
+  # so every weak lead defaulted to "review" instead of "disqualified" — this was a
+  # calibration gap, not a data gap.
+  # anything below review_min -> Disqualified
+  # leads with 3+ missing fields are force-flagged for review regardless of score,
+  # since we don't trust a score built on that little data.
+  force_review_missing_fields: 3
+
+output:
+  report_path: "output_report.json"
+  sample_message_count: 5

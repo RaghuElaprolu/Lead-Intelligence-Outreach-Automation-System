@@ -1,0 +1,2506 @@
+{
+  "generated_at": "2026-08-23T07:21:18",
+  "summary": {
+    "total_processed": 104,
+    "qualified": 35,
+    "disqualified": 10,
+    "flagged_for_review": 59,
+    "qualified_pct": 33.7,
+    "top_rejection_reasons": [
+      [
+        "Borderline fit score \u2014 too close to call automatically",
+        58
+      ],
+      [
+        "Low fit score, driven mainly by weak engagement recency",
+        8
+      ],
+      [
+        "Low fit score, driven mainly by weak company size fit",
+        2
+      ],
+      [
+        "Insufficient data to score confidently (4 fields missing)",
+        1
+      ]
+    ]
+  },
+  "leads": [
+    {
+      "row_id": 57,
+      "name": "Omar Petrov",
+      "company": "LoomSolutions 8",
+      "industry": "SaaS",
+      "company_size": 2521,
+      "source": "Sales call",
+      "fit_score": 9.38,
+      "factor_scores": {
+        "company_size_fit": 9.9,
+        "industry_fit": 10.0,
+        "source_quality": 7.0,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 1,
+      "reasoning": "Scored 9.38/10, led by strong industry fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Omar Petrov, noticed LoomSolutions 8 is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Omar Petrov, given LoomSolutions 8's footprint (~2521 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 94,
+      "name": "Sven Kowalski",
+      "company": "LoomPartners 45",
+      "industry": "Consulting",
+      "company_size": 389,
+      "source": "Referral",
+      "fit_score": 9.2,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 2,
+      "reasoning": "Scored 9.2/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Sven Kowalski, noticed LoomPartners 45 is scaling in Consulting \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Sven Kowalski, given LoomPartners 45's footprint (~389 people) in Consulting, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 61,
+      "name": "Noor Mensah",
+      "company": "PioneerSystems 12",
+      "industry": "SaaS",
+      "company_size": 1876,
+      "source": "Content download",
+      "fit_score": 8.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 3,
+      "reasoning": "Scored 8.9/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Noor Mensah, noticed PioneerSystems 12 is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Noor Mensah, given PioneerSystems 12's footprint (~1876 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 72,
+      "name": "Wei Kowalski",
+      "company": "LucidTechnologies 23",
+      "industry": "FinTech",
+      "company_size": 19769,
+      "source": "Referral",
+      "fit_score": 8.77,
+      "factor_scores": {
+        "company_size_fit": 6.67,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 8.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 4,
+      "reasoning": "Scored 8.77/10, led by strong industry fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Wei Kowalski, noticed LucidTechnologies 23 is scaling in FinTech \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Wei Kowalski, given LucidTechnologies 23's footprint (~19769 people) in FinTech, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 99,
+      "name": "Jamie Torres",
+      "company": "SpruceSystems 50",
+      "industry": "Travel",
+      "company_size": 388,
+      "source": "Webinar attendee",
+      "fit_score": 8.7,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 5,
+      "reasoning": "Scored 8.7/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Jamie Torres, noticed SpruceSystems 50 is scaling in Travel \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jamie Torres, given SpruceSystems 50's footprint (~388 people) in Travel, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 58,
+      "name": "Alex Haddad",
+      "company": "LoomGroup 9",
+      "industry": "Weird Unmapped Sector",
+      "company_size": 272,
+      "source": "Referral",
+      "fit_score": 8.2,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 5.0,
+        "source_quality": 9.5,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 6,
+      "reasoning": "Scored 8.2/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Alex Haddad, noticed LoomGroup 9 is scaling in Weird Unmapped Sector \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Alex Haddad, given LoomGroup 9's footprint (~272 people) in Weird Unmapped Sector, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 97,
+      "name": "Jordan Haddad",
+      "company": "DeltaSystems 48",
+      "industry": "Healthcare",
+      "company_size": 1403,
+      "source": "Content download",
+      "fit_score": 8.2,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 7,
+      "reasoning": "Scored 8.2/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Jordan Haddad, noticed DeltaSystems 48 is scaling in Healthcare \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jordan Haddad, given DeltaSystems 48's footprint (~1403 people) in Healthcare, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 1,
+      "name": "Alice Chen",
+      "company": "CloudScale AI",
+      "industry": "SaaS",
+      "company_size": 50,
+      "source": "Inbound demo request",
+      "fit_score": 8.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 8,
+      "reasoning": "Scored 8.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Alice Chen, noticed CloudScale AI is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Alice Chen, given CloudScale AI's footprint (~50 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 19,
+      "name": "Samuel Lee",
+      "company": "Cybersecurity Startup",
+      "industry": "Cybersecurity",
+      "company_size": 60,
+      "source": "Referral",
+      "fit_score": 8.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 9,
+      "reasoning": "Scored 8.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Samuel Lee, noticed Cybersecurity Startup is scaling in Cybersecurity \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Samuel Lee, given Cybersecurity Startup's footprint (~60 people) in Cybersecurity, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 34,
+      "name": "Test_RecentEngagement",
+      "company": "Hot Lead Corp",
+      "industry": "SaaS",
+      "company_size": 200,
+      "source": "Inbound demo request",
+      "fit_score": 8.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 10,
+      "reasoning": "Scored 8.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Test_RecentEngagement, noticed Hot Lead Corp is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Test_RecentEngagement, given Hot Lead Corp's footprint (~200 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 40,
+      "name": "Test_HighValueMatch",
+      "company": "Perfect Fit Enterprise",
+      "industry": "SaaS",
+      "company_size": 2000,
+      "source": "Inbound demo request",
+      "fit_score": 8.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 11,
+      "reasoning": "Scored 8.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Test_HighValueMatch, noticed Perfect Fit Enterprise is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Test_HighValueMatch, given Perfect Fit Enterprise's footprint (~2000 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 14,
+      "name": "Nathan Brooks",
+      "company": "Enterprise Solutions Corp",
+      "industry": "Software",
+      "company_size": 3500,
+      "source": "Inbound demo request",
+      "fit_score": 8.03,
+      "factor_scores": {
+        "company_size_fit": 9.72,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 12,
+      "reasoning": "Scored 8.03/10, led by strong industry fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Nathan Brooks, noticed Enterprise Solutions Corp is scaling in Software \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Nathan Brooks, given Enterprise Solutions Corp's footprint (~3500 people) in Software, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 75,
+      "name": "Sam Haddad",
+      "company": "OnyxStudio 26",
+      "industry": "Legal",
+      "company_size": 35,
+      "source": "Referral",
+      "fit_score": 8.0,
+      "factor_scores": {
+        "company_size_fit": 7.19,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 13,
+      "reasoning": "Scored 8.0/10, led by strong engagement recency \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Sam Haddad, noticed OnyxStudio 26 is scaling in Legal \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Sam Haddad, given OnyxStudio 26's footprint (~35 people) in Legal, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 63,
+      "name": "Diego Adeyemi",
+      "company": "CascadeTechnologies 14",
+      "industry": "Weird Unmapped Sector",
+      "company_size": 890,
+      "source": "Sales call",
+      "fit_score": 7.7,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 5.0,
+        "source_quality": 7.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 14,
+      "reasoning": "Scored 7.7/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Diego Adeyemi, noticed CascadeTechnologies 14 is scaling in Weird Unmapped Sector \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Diego Adeyemi, given CascadeTechnologies 14's footprint (~890 people) in Weird Unmapped Sector, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 24,
+      "name": "Xavier Lopez",
+      "company": "Data Analytics Firm",
+      "industry": "Analytics",
+      "company_size": 110,
+      "source": "Webinar attendee",
+      "fit_score": 7.6,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 15,
+      "reasoning": "Scored 7.6/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Xavier Lopez, noticed Data Analytics Firm is scaling in Analytics \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Xavier Lopez, given Data Analytics Firm's footprint (~110 people) in Analytics, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 86,
+      "name": "Priya Brennan",
+      "company": "RidgeSolutions 37",
+      "industry": "Analytics",
+      "company_size": 1171,
+      "source": null,
+      "fit_score": 7.6,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 3.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 16,
+      "reasoning": "Scored 7.6/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": [
+        "Hi Priya Brennan, noticed RidgeSolutions 37 is scaling in Analytics \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Priya Brennan, given RidgeSolutions 37's footprint (~1171 people) in Analytics, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 104,
+      "name": "Fatima Mensah",
+      "company": "BrightStudio 55",
+      "industry": "Energy",
+      "company_size": 109,
+      "source": "Referral",
+      "fit_score": 7.6,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 4.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 17,
+      "reasoning": "Scored 7.6/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Fatima Mensah, noticed BrightStudio 55 is scaling in Energy \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Fatima Mensah, given BrightStudio 55's footprint (~109 people) in Energy, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 78,
+      "name": "(unnamed contact at HarborWorks 29)",
+      "company": "HarborWorks 29",
+      "industry": "Weird Unmapped Sector",
+      "company_size": 8830,
+      "source": "Referral",
+      "fit_score": 7.58,
+      "factor_scores": {
+        "company_size_fit": 8.72,
+        "industry_fit": 5.0,
+        "source_quality": 9.5,
+        "engagement_recency": 6.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 18,
+      "reasoning": "Scored 7.58/10, led by strong source quality \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "name"
+      ],
+      "outreach_messages": [
+        "Hi there, noticed HarborWorks 29 is scaling in Weird Unmapped Sector \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi there, given HarborWorks 29's footprint (~8830 people) in Weird Unmapped Sector, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 82,
+      "name": "Jamie Haddad",
+      "company": "LoomCo 33",
+      "industry": "Healthcare",
+      "company_size": 40,
+      "source": "Sales call",
+      "fit_score": 7.53,
+      "factor_scores": {
+        "company_size_fit": 8.12,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 19,
+      "reasoning": "Scored 7.53/10, led by strong data confidence \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Jamie Haddad, noticed LoomCo 33 is scaling in Healthcare \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jamie Haddad, given LoomCo 33's footprint (~40 people) in Healthcare, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 88,
+      "name": "Taylor Torres",
+      "company": "HarborSystems 39",
+      "industry": "Events",
+      "company_size": 135,
+      "source": "Sales call",
+      "fit_score": 7.5,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 20,
+      "reasoning": "Scored 7.5/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Taylor Torres, noticed HarborSystems 39 is scaling in Events \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Taylor Torres, given HarborSystems 39's footprint (~135 people) in Events, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 54,
+      "name": "Wei Bergman",
+      "company": "KiteSystems 5",
+      "industry": "Cybersecurity",
+      "company_size": 33910,
+      "source": "LinkedIn outreach",
+      "fit_score": 7.41,
+      "factor_scores": {
+        "company_size_fit": 4.02,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 21,
+      "reasoning": "Scored 7.41/10, led by strong industry fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Wei Bergman, noticed KiteSystems 5 is scaling in Cybersecurity \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Wei Bergman, given KiteSystems 5's footprint (~33910 people) in Cybersecurity, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 5,
+      "name": "Emma Thompson",
+      "company": "RetailWorks Solutions",
+      "industry": "Retail",
+      "company_size": 200,
+      "source": "Inbound demo request",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 22,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Emma Thompson, noticed RetailWorks Solutions is scaling in Retail \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Emma Thompson, given RetailWorks Solutions's footprint (~200 people) in Retail, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 10,
+      "name": "Jack White",
+      "company": "Digital Marketing Agency",
+      "industry": "Marketing",
+      "company_size": 120,
+      "source": "Inbound demo request",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 23,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Jack White, noticed Digital Marketing Agency is scaling in Marketing \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jack White, given Digital Marketing Agency's footprint (~120 people) in Marketing, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 25,
+      "name": "Yuki Tanaka",
+      "company": "Travel Technology",
+      "industry": "Travel",
+      "company_size": 55,
+      "source": "Referral",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 24,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Yuki Tanaka, noticed Travel Technology is scaling in Travel \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Yuki Tanaka, given Travel Technology's footprint (~55 people) in Travel, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 38,
+      "name": "Test_MultipleInteractions",
+      "company": "Active Company",
+      "industry": "Finance",
+      "company_size": 500,
+      "source": "Inbound demo request",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 25,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Test_MultipleInteractions, noticed Active Company is scaling in Finance \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Test_MultipleInteractions, given Active Company's footprint (~500 people) in Finance, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 49,
+      "name": "Test_SMBAverage",
+      "company": "Average SMB Co",
+      "industry": "Retail",
+      "company_size": 120,
+      "source": "Inbound demo request",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 26,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Test_SMBAverage, noticed Average SMB Co is scaling in Retail \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Test_SMBAverage, given Average SMB Co's footprint (~120 people) in Retail, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 90,
+      "name": "Noor Okafor",
+      "company": "CascadeGroup 41",
+      "industry": "Analytics",
+      "company_size": 375,
+      "source": "Content download",
+      "fit_score": 7.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 2.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 27,
+      "reasoning": "Scored 7.4/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Noor Okafor, noticed CascadeGroup 41 is scaling in Analytics \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Noor Okafor, given CascadeGroup 41's footprint (~375 people) in Analytics, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 50,
+      "name": "(unnamed contact at KiteWorks 1)",
+      "company": "KiteWorks 1",
+      "industry": "Legal",
+      "company_size": 17297,
+      "source": "Inbound demo request",
+      "fit_score": 7.38,
+      "factor_scores": {
+        "company_size_fit": 7.13,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 8.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 28,
+      "reasoning": "Scored 7.38/10, led by strong source quality \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "name"
+      ],
+      "outreach_messages": [
+        "Hi there, noticed KiteWorks 1 is scaling in Legal \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi there, given KiteWorks 1's footprint (~17297 people) in Legal, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 69,
+      "name": "Jamie Adeyemi",
+      "company": "HarborGroup 20",
+      "industry": "Insurance",
+      "company_size": 32,
+      "source": "Content download",
+      "fit_score": 7.36,
+      "factor_scores": {
+        "company_size_fit": 6.62,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 29,
+      "reasoning": "Scored 7.36/10, led by strong engagement recency \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Jamie Adeyemi, noticed HarborGroup 20 is scaling in Insurance \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jamie Adeyemi, given HarborGroup 20's footprint (~32 people) in Insurance, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 74,
+      "name": "Jamie Bergman",
+      "company": "PioneerPartners 25",
+      "industry": "Cybersecurity",
+      "company_size": 580,
+      "source": "LinkedIn outreach",
+      "fit_score": 7.2,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 3.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 30,
+      "reasoning": "Scored 7.2/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "last_interaction_date"
+      ],
+      "outreach_messages": [
+        "Hi Jamie Bergman, noticed PioneerPartners 25 is scaling in Cybersecurity \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Jamie Bergman, given PioneerPartners 25's footprint (~580 people) in Cybersecurity, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 92,
+      "name": "Wei Haddad",
+      "company": "FableSolutions 43",
+      "industry": "Analytics",
+      "company_size": 143,
+      "source": "Content download",
+      "fit_score": 7.2,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 3.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 31,
+      "reasoning": "Scored 7.2/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "last_interaction_date"
+      ],
+      "outreach_messages": [
+        "Hi Wei Haddad, noticed FableSolutions 43 is scaling in Analytics \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Wei Haddad, given FableSolutions 43's footprint (~143 people) in Analytics, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 68,
+      "name": "Fatima Okafor",
+      "company": "HarborCo 19",
+      "industry": "Healthcare",
+      "company_size": 30,
+      "source": "Inbound demo request",
+      "fit_score": 7.16,
+      "factor_scores": {
+        "company_size_fit": 6.25,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 4.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 32,
+      "reasoning": "Scored 7.16/10, led by strong data confidence \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Fatima Okafor, noticed HarborCo 19 is scaling in Healthcare \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Fatima Okafor, given HarborCo 19's footprint (~30 people) in Healthcare, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 8,
+      "name": "Henry Park",
+      "company": "EdTech Innovations",
+      "industry": "EdTech",
+      "company_size": 75,
+      "source": "Content download",
+      "fit_score": 7.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 33,
+      "reasoning": "Scored 7.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Henry Park, noticed EdTech Innovations is scaling in EdTech \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Henry Park, given EdTech Innovations's footprint (~75 people) in EdTech, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 46,
+      "name": "Test_MidMarketSoft",
+      "company": "Mid Market Software",
+      "industry": "SaaS",
+      "company_size": 1500,
+      "source": "Content download",
+      "fit_score": 7.1,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 34,
+      "reasoning": "Scored 7.1/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [],
+      "outreach_messages": [
+        "Hi Test_MidMarketSoft, noticed Mid Market Software is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Test_MidMarketSoft, given Mid Market Software's footprint (~1500 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 91,
+      "name": "Sam Haddad",
+      "company": "PioneerWorks 42",
+      "industry": "Government",
+      "company_size": 486,
+      "source": "Referral",
+      "fit_score": 7.0,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 3.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Qualified",
+      "priority_rank": 35,
+      "reasoning": "Scored 7.0/10, led by strong company size fit \u2014 a solid match worth prioritizing.",
+      "rejection_reason": null,
+      "missing_fields": [
+        "last_interaction_date"
+      ],
+      "outreach_messages": [
+        "Hi Sam Haddad, noticed PioneerWorks 42 is scaling in Government \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?",
+        "Hi Sam Haddad, given PioneerWorks 42's footprint (~486 people) in Government, I think there's a strong fit here. Open to a 15-minute intro this week?"
+      ]
+    },
+    {
+      "row_id": 12,
+      "name": "Leon Chen",
+      "company": "FinTech Startup",
+      "industry": "FinTech",
+      "company_size": 25,
+      "source": "Referral",
+      "fit_score": 6.93,
+      "factor_scores": {
+        "company_size_fit": 5.31,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.93/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 80,
+      "name": "Sam Petrov",
+      "company": "CascadeWorks 31",
+      "industry": "Government",
+      "company_size": 40,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.93,
+      "factor_scores": {
+        "company_size_fit": 8.12,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 8.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.93/10, held back mainly by weak industry fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 6,
+      "name": "Frank Liu",
+      "company": "Healthcare Systems Ltd",
+      "industry": "Healthcare",
+      "company_size": 1200,
+      "source": "Sales call",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 11,
+      "name": "Karen Miller",
+      "company": "InsurancePro",
+      "industry": "Insurance",
+      "company_size": 600,
+      "source": "Sales call",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 17,
+      "name": "Quinn Matthews",
+      "company": "Consulting Firm",
+      "industry": "Consulting",
+      "company_size": 180,
+      "source": "Webinar attendee",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 20,
+      "name": "Tina Patel",
+      "company": "Energy Solutions",
+      "industry": "Energy",
+      "company_size": 900,
+      "source": "Inbound demo request",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 26,
+      "name": "Zara Hassan",
+      "company": "Education Institution",
+      "industry": "Education",
+      "company_size": 600,
+      "source": "Inbound demo request",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 45,
+      "name": "Test_WeekOldInteraction",
+      "company": "Week Old Corp",
+      "industry": "Logistics",
+      "company_size": 250,
+      "source": "Webinar attendee",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 96,
+      "name": "Kenji Okafor",
+      "company": "KiteLabs 47",
+      "industry": "Retail",
+      "company_size": 141,
+      "source": "Sales call",
+      "fit_score": 6.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 67,
+      "name": "Jamie Castillo",
+      "company": "CobaltWorks 18",
+      "industry": null,
+      "company_size": 2557,
+      "source": "Inbound demo request",
+      "fit_score": 6.88,
+      "factor_scores": {
+        "company_size_fit": 9.9,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 2.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.88/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "industry"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 64,
+      "name": "Diego Torres",
+      "company": "KiteCo 15",
+      "industry": "Hospitality",
+      "company_size": 44,
+      "source": null,
+      "fit_score": 6.82,
+      "factor_scores": {
+        "company_size_fit": 8.88,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 10.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.82/10, held back mainly by weak source quality. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 87,
+      "name": "Jordan Kim",
+      "company": "BloomWorks 38",
+      "industry": "Cybersecurity",
+      "company_size": 14497,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.82,
+      "factor_scores": {
+        "company_size_fit": 7.66,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 2.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.82/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 101,
+      "name": "Fatima Haddad",
+      "company": "LoomStudio 52",
+      "industry": "FinTech",
+      "company_size": 8,
+      "source": "Webinar attendee",
+      "fit_score": 6.73,
+      "factor_scores": {
+        "company_size_fit": 2.12,
+        "industry_fit": 10.0,
+        "source_quality": 7.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.73/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 71,
+      "name": "Drew Silva",
+      "company": "BrightPartners 22",
+      "industry": "Analytics",
+      "company_size": 2,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.65,
+      "factor_scores": {
+        "company_size_fit": 1.0,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 10.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.65/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 35,
+      "name": "Test_MissingDate",
+      "company": "Mystery Co",
+      "industry": "Technology",
+      "company_size": 150,
+      "source": null,
+      "fit_score": 6.6,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 10.0,
+        "source_quality": 3.0,
+        "engagement_recency": 3.0,
+        "data_confidence": 6.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.6/10, held back mainly by weak source quality. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source",
+        "last_interaction_date"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 42,
+      "name": "Test_MissingName",
+      "company": null,
+      "industry": "Consulting",
+      "company_size": 400,
+      "source": "Sales call",
+      "fit_score": 6.6,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.6/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "company"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 79,
+      "name": "Omar Brennan",
+      "company": "NorthWorks 30",
+      "industry": "EdTech",
+      "company_size": 15558,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.57,
+      "factor_scores": {
+        "company_size_fit": 7.46,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 3.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.57/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "last_interaction_date"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 7,
+      "name": "Grace Lee",
+      "company": "Manufacturing Co",
+      "industry": "Manufacturing",
+      "company_size": 450,
+      "source": "Webinar attendee",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 9,
+      "name": "Iris Patel",
+      "company": "Logistics Global",
+      "industry": "Logistics",
+      "company_size": 800,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 22,
+      "name": "Victor Moore",
+      "company": "Real Estate Platform",
+      "industry": "Real Estate",
+      "company_size": 250,
+      "source": "Sales call",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 23,
+      "name": "Wendy Zhang",
+      "company": "Fashion Brand",
+      "industry": "Retail",
+      "company_size": 400,
+      "source": "Content download",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 27,
+      "name": "Aaron Benj",
+      "company": "Supply Chain Co",
+      "industry": "Supply Chain",
+      "company_size": 320,
+      "source": "LinkedIn outreach",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 28,
+      "name": "Bella Cross",
+      "company": "Legal Services Firm",
+      "industry": "Legal",
+      "company_size": 90,
+      "source": "Sales call",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 29,
+      "name": "Cassandra Jones",
+      "company": "Media & Entertainment",
+      "industry": "Media",
+      "company_size": 150,
+      "source": "Content download",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 33,
+      "name": "Test_StaleInteraction",
+      "company": "Old Company Inc",
+      "industry": "Manufacturing",
+      "company_size": 100,
+      "source": "Sales call",
+      "fit_score": 6.4,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.4/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 16,
+      "name": "Pamela White",
+      "company": "Pharma Research Inc",
+      "industry": "Pharmaceuticals",
+      "company_size": 2200,
+      "source": "Sales call",
+      "fit_score": 6.39,
+      "factor_scores": {
+        "company_size_fit": 9.96,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.39/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 48,
+      "name": "Test_GovernmentBuyer",
+      "company": "Government Tech",
+      "industry": "Government",
+      "company_size": 3000,
+      "source": "Sales call",
+      "fit_score": 6.35,
+      "factor_scores": {
+        "company_size_fit": 9.81,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.35/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 98,
+      "name": "Diego Nakamura",
+      "company": "LoomTechnologies 49",
+      "industry": "Events",
+      "company_size": 17,
+      "source": "Webinar attendee",
+      "fit_score": 6.35,
+      "factor_scores": {
+        "company_size_fit": 3.81,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 8.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.35/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 85,
+      "name": "Morgan Kowalski",
+      "company": "BrightTechnologies 36",
+      "industry": "Healthcare",
+      "company_size": 20817,
+      "source": "Sales call",
+      "fit_score": 6.32,
+      "factor_scores": {
+        "company_size_fit": 6.47,
+        "industry_fit": 6.5,
+        "source_quality": 7.0,
+        "engagement_recency": 2.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.32/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 51,
+      "name": "(unnamed contact at AnchorStudio 2)",
+      "company": "AnchorStudio 2",
+      "industry": "Analytics",
+      "company_size": 6932,
+      "source": null,
+      "fit_score": 6.27,
+      "factor_scores": {
+        "company_size_fit": 9.08,
+        "industry_fit": 10.0,
+        "source_quality": 3.0,
+        "engagement_recency": 2.5,
+        "data_confidence": 6.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.27/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "name",
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 3,
+      "name": "Carol Singh",
+      "company": "National Bank Corp",
+      "industry": "Finance",
+      "company_size": 5000,
+      "source": "Content download",
+      "fit_score": 6.26,
+      "factor_scores": {
+        "company_size_fit": 9.44,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.26/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 56,
+      "name": "Lucia Lindqvist",
+      "company": "RidgePartners 7",
+      "industry": "Energy",
+      "company_size": 45,
+      "source": "Webinar attendee",
+      "fit_score": 6.17,
+      "factor_scores": {
+        "company_size_fit": 9.06,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.17/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 52,
+      "name": "Priya Reed",
+      "company": "NorthTechnologies 3",
+      "industry": "Travel",
+      "company_size": 23,
+      "source": "Referral",
+      "fit_score": 6.14,
+      "factor_scores": {
+        "company_size_fit": 4.94,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.14/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 47,
+      "name": "Test_StartupShutdown",
+      "company": "Failed Startup",
+      "industry": "SaaS",
+      "company_size": 8,
+      "source": "Referral",
+      "fit_score": 6.13,
+      "factor_scores": {
+        "company_size_fit": 2.12,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.13/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 76,
+      "name": "Priya Lindqvist",
+      "company": "LoomSystems 27",
+      "industry": "Analytics",
+      "company_size": 7,
+      "source": "Inbound demo request",
+      "fit_score": 6.08,
+      "factor_scores": {
+        "company_size_fit": 1.94,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.08/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 30,
+      "name": "Test_MissingSize",
+      "company": "Test Inc",
+      "industry": "SaaS",
+      "company_size": null,
+      "source": "Inbound demo request",
+      "fit_score": 6.05,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.05/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "company_size"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 103,
+      "name": "Taylor Torres",
+      "company": "FableTechnologies 54",
+      "industry": "Government",
+      "company_size": 1183,
+      "source": null,
+      "fit_score": 6.0,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 4.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 6.0/10, held back mainly by weak source quality. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 4,
+      "name": "David Moore",
+      "company": "StartupXYZ",
+      "industry": "SaaS",
+      "company_size": 3,
+      "source": "Referral",
+      "fit_score": 5.9,
+      "factor_scores": {
+        "company_size_fit": 1.19,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 18,
+      "name": "Rachel Kim",
+      "company": "Government Agency",
+      "industry": "Government",
+      "company_size": 800,
+      "source": "Content download",
+      "fit_score": 5.9,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.9/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 93,
+      "name": "Diego Sato",
+      "company": "SpruceWorks 44",
+      "industry": "Real Estate",
+      "company_size": 15,
+      "source": "Webinar attendee",
+      "fit_score": 5.86,
+      "factor_scores": {
+        "company_size_fit": 3.44,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.86/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 31,
+      "name": "Test_VeryLargeEnterprise",
+      "company": "Global Fortune 500 Corp",
+      "industry": "Enterprise Software",
+      "company_size": 50000,
+      "source": "Inbound demo request",
+      "fit_score": 5.85,
+      "factor_scores": {
+        "company_size_fit": 1.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.85/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 37,
+      "name": "Test_VeryRecentSignup",
+      "company": "Brand New Startup",
+      "industry": "SaaS",
+      "company_size": 2,
+      "source": "Inbound demo request",
+      "fit_score": 5.85,
+      "factor_scores": {
+        "company_size_fit": 1.0,
+        "industry_fit": 10.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.85/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 60,
+      "name": "Sven Novak",
+      "company": "SpruceGroup 11",
+      "industry": "Legal",
+      "company_size": 9758,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.84,
+      "factor_scores": {
+        "company_size_fit": 8.55,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 2.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.84/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 95,
+      "name": "Kenji Torres",
+      "company": "AnchorWorks 46",
+      "industry": "Events",
+      "company_size": 22622,
+      "source": null,
+      "fit_score": 5.83,
+      "factor_scores": {
+        "company_size_fit": 6.13,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 8.5,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.83/10, held back mainly by weak source quality. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 39,
+      "name": "Test_NoSourceInfo",
+      "company": "Source Unknown Corp",
+      "industry": "Retail",
+      "company_size": 300,
+      "source": null,
+      "fit_score": 5.8,
+      "factor_scores": {
+        "company_size_fit": 10.0,
+        "industry_fit": 6.5,
+        "source_quality": 3.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.8/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 55,
+      "name": "Fatima Haddad",
+      "company": "NorthWorks 6",
+      "industry": "Consulting",
+      "company_size": 12,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.72,
+      "factor_scores": {
+        "company_size_fit": 2.88,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 6.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.72/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 73,
+      "name": "Casey Lindqvist",
+      "company": "BrightGroup 24",
+      "industry": "Agriculture",
+      "company_size": 20,
+      "source": null,
+      "fit_score": 5.7,
+      "factor_scores": {
+        "company_size_fit": 4.38,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 10.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.7/10, held back mainly by weak source quality. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 83,
+      "name": "Morgan Bergman",
+      "company": "NorthTechnologies 34",
+      "industry": "Agriculture",
+      "company_size": 24,
+      "source": "Inbound demo request",
+      "fit_score": 5.68,
+      "factor_scores": {
+        "company_size_fit": 5.12,
+        "industry_fit": 4.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.68/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 13,
+      "name": "Maya Desai",
+      "company": "Agricultural Tech",
+      "industry": "Agriculture",
+      "company_size": 45,
+      "source": "Content download",
+      "fit_score": 5.67,
+      "factor_scores": {
+        "company_size_fit": 9.06,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.67/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 102,
+      "name": "Alex Haddad",
+      "company": "SummitGroup 53",
+      "industry": "Analytics",
+      "company_size": 47697,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.66,
+      "factor_scores": {
+        "company_size_fit": 1.43,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 4.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.66/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 70,
+      "name": "Taylor Kowalski",
+      "company": "LucidSolutions 21",
+      "industry": "Consulting",
+      "company_size": 26,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.58,
+      "factor_scores": {
+        "company_size_fit": 5.5,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 2.5,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.58/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 81,
+      "name": "Kenji Nakamura",
+      "company": "CobaltCo 32",
+      "industry": "Energy",
+      "company_size": 43,
+      "source": "Content download",
+      "fit_score": 5.57,
+      "factor_scores": {
+        "company_size_fit": 8.69,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.57/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 36,
+      "name": "Test_UnknownIndustry",
+      "company": "Mysterious Startup",
+      "industry": "Unknown Sector",
+      "company_size": 15,
+      "source": "Referral",
+      "fit_score": 5.46,
+      "factor_scores": {
+        "company_size_fit": 3.44,
+        "industry_fit": 5.0,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.46/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 100,
+      "name": "Lucia Bergman",
+      "company": "CascadeSystems 51",
+      "industry": "Analytics",
+      "company_size": 25298,
+      "source": null,
+      "fit_score": 5.41,
+      "factor_scores": {
+        "company_size_fit": 5.63,
+        "industry_fit": 10.0,
+        "source_quality": 3.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.41/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 53,
+      "name": "Omar Adeyemi",
+      "company": "AnchorSystems 4",
+      "industry": "Insurance",
+      "company_size": null,
+      "source": "Inbound demo request",
+      "fit_score": 5.35,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 6.5,
+        "source_quality": 9.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.35/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "company_size"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 21,
+      "name": "Uma Singh",
+      "company": "Event Planning Co",
+      "industry": "Events",
+      "company_size": 35,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.2,
+      "factor_scores": {
+        "company_size_fit": 7.19,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.2/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 2,
+      "name": "Bob Rodriguez",
+      "company": "TechVentures Inc",
+      "industry": "SaaS",
+      "company_size": 8,
+      "source": "LinkedIn outreach",
+      "fit_score": 5.13,
+      "factor_scores": {
+        "company_size_fit": 2.12,
+        "industry_fit": 10.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.13/10, held back mainly by weak engagement recency. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 66,
+      "name": "Jordan Kowalski",
+      "company": "SummitPartners 17",
+      "industry": "Energy",
+      "company_size": null,
+      "source": null,
+      "fit_score": 5.05,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 10.0,
+        "data_confidence": 6.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 5.05/10, held back mainly by weak company size fit. Borderline fit score \u2014 too close to call automatically",
+      "rejection_reason": "Borderline fit score \u2014 too close to call automatically",
+      "missing_fields": [
+        "company_size",
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 65,
+      "name": "Sven Bergman",
+      "company": "RidgeLabs 16",
+      "industry": null,
+      "company_size": 20,
+      "source": "Webinar attendee",
+      "fit_score": 4.7,
+      "factor_scores": {
+        "company_size_fit": 4.38,
+        "industry_fit": 4.0,
+        "source_quality": 7.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 8.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.7/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [
+        "industry"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 44,
+      "name": "Test_PartialData",
+      "company": "Tech Partial",
+      "industry": "SaaS",
+      "company_size": null,
+      "source": null,
+      "fit_score": 4.45,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 10.0,
+        "source_quality": 3.0,
+        "engagement_recency": 1.0,
+        "data_confidence": 6.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.45/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [
+        "company_size",
+        "source"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 59,
+      "name": "Amara Kim",
+      "company": "FableCo 10",
+      "industry": "Insurance",
+      "company_size": null,
+      "source": "LinkedIn outreach",
+      "fit_score": 4.45,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 3.0,
+        "data_confidence": 6.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.45/10, held back mainly by weak company size fit. Low fit score, driven mainly by weak company size fit",
+      "rejection_reason": "Low fit score, driven mainly by weak company size fit",
+      "missing_fields": [
+        "company_size",
+        "last_interaction_date"
+      ],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 77,
+      "name": "Taylor Fischer",
+      "company": "LoomSolutions 28",
+      "industry": "Insurance",
+      "company_size": 6,
+      "source": "Content download",
+      "fit_score": 4.34,
+      "factor_scores": {
+        "company_size_fit": 1.75,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.34/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 89,
+      "name": "Omar Reed",
+      "company": "SummitPartners 40",
+      "industry": "Healthcare",
+      "company_size": 5,
+      "source": "Content download",
+      "fit_score": 4.29,
+      "factor_scores": {
+        "company_size_fit": 1.56,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.29/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 62,
+      "name": "Priya Novak",
+      "company": "LoomWorks 13",
+      "industry": "Legal",
+      "company_size": 14,
+      "source": "LinkedIn outreach",
+      "fit_score": 4.21,
+      "factor_scores": {
+        "company_size_fit": 3.25,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.21/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 15,
+      "name": "Olivia Garcia",
+      "company": "Local Restaurant Group",
+      "industry": "Hospitality",
+      "company_size": 12,
+      "source": "LinkedIn outreach",
+      "fit_score": 4.12,
+      "factor_scores": {
+        "company_size_fit": 2.88,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.12/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 32,
+      "name": "Test_Solo",
+      "company": "John Doe Consulting",
+      "industry": "Consulting",
+      "company_size": 1,
+      "source": "LinkedIn outreach",
+      "fit_score": 4.03,
+      "factor_scores": {
+        "company_size_fit": 0.5,
+        "industry_fit": 6.5,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 4.03/10, held back mainly by weak company size fit. Low fit score, driven mainly by weak company size fit",
+      "rejection_reason": "Low fit score, driven mainly by weak company size fit",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 84,
+      "name": "Fatima Lindqvist",
+      "company": "SpruceStudio 35",
+      "industry": "Real Estate",
+      "company_size": 6,
+      "source": "LinkedIn outreach",
+      "fit_score": 3.84,
+      "factor_scores": {
+        "company_size_fit": 1.75,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 3.84/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 41,
+      "name": "Test_LowValueNiche",
+      "company": "Niche Small Op",
+      "industry": "Agriculture",
+      "company_size": 5,
+      "source": "LinkedIn outreach",
+      "fit_score": 3.79,
+      "factor_scores": {
+        "company_size_fit": 1.56,
+        "industry_fit": 4.0,
+        "source_quality": 4.5,
+        "engagement_recency": 1.0,
+        "data_confidence": 10.0
+      },
+      "decision": "Disqualified",
+      "priority_rank": null,
+      "reasoning": "Scored 3.79/10, held back mainly by weak engagement recency. Low fit score, driven mainly by weak engagement recency",
+      "rejection_reason": "Low fit score, driven mainly by weak engagement recency",
+      "missing_fields": [],
+      "outreach_messages": []
+    },
+    {
+      "row_id": 43,
+      "name": "Test_NameOnly",
+      "company": "James Wilson",
+      "industry": null,
+      "company_size": null,
+      "source": null,
+      "fit_score": 3.05,
+      "factor_scores": {
+        "company_size_fit": 3.0,
+        "industry_fit": 4.0,
+        "source_quality": 3.0,
+        "engagement_recency": 3.0,
+        "data_confidence": 2.0
+      },
+      "decision": "Flagged for Human Review",
+      "priority_rank": null,
+      "reasoning": "Scored 3.05/10, held back mainly by weak data confidence. Insufficient data to score confidently (4 fields missing)",
+      "rejection_reason": "Insufficient data to score confidently (4 fields missing)",
+      "missing_fields": [
+        "company_size",
+        "industry",
+        "source",
+        "last_interaction_date"
+      ],
+      "outreach_messages": []
+    }
+  ],
+  "sample_outreach_messages": [
+    {
+      "lead": "Omar Petrov",
+      "company": "LoomSolutions 8",
+      "message": "Hi Omar Petrov, noticed LoomSolutions 8 is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?"
+    },
+    {
+      "lead": "Omar Petrov",
+      "company": "LoomSolutions 8",
+      "message": "Hi Omar Petrov, given LoomSolutions 8's footprint (~2521 people) in SaaS, I think there's a strong fit here. Open to a 15-minute intro this week?"
+    },
+    {
+      "lead": "Sven Kowalski",
+      "company": "LoomPartners 45",
+      "message": "Hi Sven Kowalski, noticed LoomPartners 45 is scaling in Consulting \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?"
+    },
+    {
+      "lead": "Sven Kowalski",
+      "company": "LoomPartners 45",
+      "message": "Hi Sven Kowalski, given LoomPartners 45's footprint (~389 people) in Consulting, I think there's a strong fit here. Open to a 15-minute intro this week?"
+    },
+    {
+      "lead": "Noor Mensah",
+      "company": "PioneerSystems 12",
+      "message": "Hi Noor Mensah, noticed PioneerSystems 12 is scaling in SaaS \u2014 we've helped similarly-sized teams cut manual lead review time significantly. Worth a quick chat?"
+    }
+  ]
+}
